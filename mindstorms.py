@@ -16,7 +16,6 @@ def draw_a_square():
     pinto=turtle.Turtle()
     pinto.shape("turtle")
     pinto.color("blue")
-    pinto.speed(2)
     pinto.forward(100)
     pinto.right(90)
     pinto.forward(100)
@@ -26,12 +25,13 @@ def draw_a_square():
     pinto.forward(100)
     pinto.right(90)
     
-    
-    pinter=turtle.Turtle()
-    pinter.shape('arrow')
-    pinter.color('red')
-    
-    pinter.circle(100)
+  
+    pinto.circle(100)
+    pinto.forward(100)
+    pinto.right(45)
+    pinto.forward(100)
+    pinto.right(100)
+    pinto.forward(100)
     turtle.done()
     window_for_pinto.exitonclick()
     
